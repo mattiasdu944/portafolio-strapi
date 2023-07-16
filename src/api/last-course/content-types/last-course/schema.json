@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "last_courses",
+  "info": {
+    "singularName": "last-course",
+    "pluralName": "last-courses",
+    "displayName": "Last Course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
